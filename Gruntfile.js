@@ -181,7 +181,7 @@ module.exports = function(grunt) {
 		addtextdomain: {
 			theme: {
 				options: {
-					textdomain: '_s'
+					textdomain: 'reachsupply'
 				},
 				target: {
 					files: {

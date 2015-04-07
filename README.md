@@ -29,11 +29,11 @@ Setting up by hand is a bit harder, but if you're comfortable with Git and doing
 
 You'll need to change all instances of the names: `_s` to your project name.
 
-- Search for: `'_s'` and replace with: `'project-name'` (inside single quotations) to capture the text domain
-- Search for: `_s_` and replace with: `project-name_` to capture all the function names
-- Search for: `Text Domain: _s` and replace with: `Text Domain: project-name` in style.css
+- Search for: `'reachsupply'` and replace with: `'project-name'` (inside single quotations) to capture the text domain
+- Search for: `reachsupply_` and replace with: `project-name_` to capture all the function names
+- Search for: `Text Domain: reachsupply` and replace with: `Text Domain: project-name` in style.css
 - Search for (and include the leading space): <code>&nbsp;_s</code> and replace with: <code>&nbsp;Project Name</code>(with a space before it) to capture DocBlocks
-- Search for: `_s-` and replace with: `project-name-` to capture prefixed handles
+- Search for: `reachsupply-` and replace with: `project-name-` to capture prefixed handles
 
 ##### 4) Install Grunt and Dependencies
 - Run `npm install && bower install` from the command line to install Grunt and pull down any dependencies via Bower.

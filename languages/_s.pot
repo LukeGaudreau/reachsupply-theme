@@ -9,7 +9,7 @@ Greg Rickaby gregrickaby
 615  Watch
   Unstar 4,449
  Fork 1,544Automattic/_s
- tree: 894bd6b5d3  _s/languages/_s.pot
+ tree: 894bd6b5d3  reachsupply/languages/_s.pot
 Kazue Igarashigatespace 26 days ago Use core navigation template tags.
 4 contributors Konstantin ObenlandKazue IgarashiPhilip Arthur MooreAahan Krish
 285 lines (220 sloc)  5.608 kb RawBlameHistory
@@ -17,7 +17,7 @@ Kazue Igarashigatespace 26 days ago Use core navigation template tags.
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: _s 1.0.0\n"
+"Project-Id-Version: reachsupply 1.0.0\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
 "POT-Creation-Date: 2015-01-06 02:24:02+00:00\n"
 "MIME-Version: 1.0\n"

@@ -1,8 +1,8 @@
 <?php
 /**
- * _s functions and definitions
+ * reachsupply functions and definitions
  *
- * @package _s
+ * @package reachsupply
  */
 
 /**
@@ -12,7 +12,7 @@ if ( ! isset( $content_width ) ) {
 	$content_width = 640; /* pixels */
 }
 
-if ( ! function_exists( '_s_setup' ) ) :
+if ( ! function_exists( 'reachsupply_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
  *
@@ -20,15 +20,15 @@ if ( ! function_exists( '_s_setup' ) ) :
  * runs before the init hook. The init hook is too late for some features, such
  * as indicating support for post thumbnails.
  */
-function _s_setup() {
+function reachsupply_setup() {
 
 	/*
 	 * Make theme available for translation.
 	 * Translations can be filed in the /languages/ directory.
-	 * If you're building a theme based on _s, use a find and replace
-	 * to change '_s' to the name of your theme in all the template files
+	 * If you're building a theme based on reachsupply, use a find and replace
+	 * to change 'reachsupply' to the name of your theme in all the template files
 	 */
-	load_theme_textdomain( '_s', get_template_directory() . '/languages' );
+	load_theme_textdomain( 'reachsupply', get_template_directory() . '/languages' );
 
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
@@ -50,8 +50,8 @@ function _s_setup() {
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
-		'primary' => __( 'Primary Menu', '_s' ),
-		'social'  => __( 'Social Menu', '_s' ),
+		'primary' => __( 'Primary Menu', 'reachsupply' ),
+		'social'  => __( 'Social Menu', 'reachsupply' ),
 	) );
 
 	/*
@@ -71,29 +71,29 @@ function _s_setup() {
 	) );
 
 	// Set up the WordPress core custom background feature.
-	add_theme_support( 'custom-background', apply_filters( '_s_custom_background_args', array(
+	add_theme_support( 'custom-background', apply_filters( 'reachsupply_custom_background_args', array(
 		'default-color' => 'ffffff',
 		'default-image' => '',
 	) ) );
 
 	// Add styles to the post editor
-	add_editor_style( array( 'editor-style.css', _s_font_url() ) );
+	add_editor_style( array( 'editor-style.css', reachsupply_font_url() ) );
 }
-endif; // _s_setup
-add_action( 'after_setup_theme', '_s_setup' );
+endif; // reachsupply_setup
+add_action( 'after_setup_theme', 'reachsupply_setup' );
 
 /**
  * Register widget area.
  *
  * @link http://codex.wordpress.org/Function_Reference/register_sidebar
  */
-function _s_widgets_init() {
+function reachsupply_widgets_init() {
 
 	// Define sidebars
 	$sidebars = array(
-		'sidebar-1'  => __( 'Sidebar 1', '_s' ),
-	//	'sidebar-2'  => __( 'Sidebar 2', '_s' ),
-	//	'sidebar-3'  => __( 'Sidebar 3', '_s' ),
+		'sidebar-1'  => __( 'Sidebar 1', 'reachsupply' ),
+	//	'sidebar-2'  => __( 'Sidebar 2', 'reachsupply' ),
+	//	'sidebar-3'  => __( 'Sidebar 3', 'reachsupply' ),
 	);
 
 	// Loop through each sidebar and register
@@ -101,7 +101,7 @@ function _s_widgets_init() {
 		register_sidebar( array(
 			'name'          => $sidebar_name,
 			'id'            => $sidebar_id,
-			'description'   => __( 'Widget area for ' . $sidebar_name . '', '_s' ),
+			'description'   => __( 'Widget area for ' . $sidebar_name . '', 'reachsupply' ),
 			'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 			'after_widget'  => '</aside>',
 			'before_title'  => '<h3 class="widget-title">',
@@ -110,7 +110,7 @@ function _s_widgets_init() {
 	}
 
 }
-add_action( 'widgets_init', '_s_widgets_init' );
+add_action( 'widgets_init', 'reachsupply_widgets_init' );
 
 /**
  * Implement the Custom Header feature.
