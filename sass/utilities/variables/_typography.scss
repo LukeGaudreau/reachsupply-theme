@@ -2,6 +2,8 @@
 // Typography
 // -------------------------------------------------------------
 
+@include font-face("League Spartan", "fonts/leaguespartan-bold", $file-formats: woff2 woff);
+$font-header: "League Spartan";
 $font-sans:  "Open Sans", sans-serif;
 $font-serif: Roboto, Georgia, Times, "Times New Roman", serif;
 $font-code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;

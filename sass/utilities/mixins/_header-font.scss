@@ -1,0 +1,8 @@
+// Header Font
+// Usage @include header-font;
+
+@mixin header-font {
+	font-family: $font-header;
+	font-weight: normal;
+	letter-spacing: 0.2em;
+}

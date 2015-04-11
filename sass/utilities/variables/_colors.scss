@@ -1,7 +1,11 @@
 //--------------------------------------------------------------
 // Colors
 // -------------------------------------------------------------
+$dark-blue: #0B486B;
+$light-blue: #42839B;
+$ivory: #FFFBEB;
 
+$color-background-header: $dark-blue;
 $color-background-body: #fff;
 $color-background-screen-reader: #f1f1f1;
 $color-background-hr: #ccc;
@@ -16,6 +20,8 @@ $color-link: royalblue;
 $color-link-visited: purple;
 $color-link-hover: midnightblue;
 $color-text-main: #404040;
+$color-link-header: $ivory;
+$color-logo: $light-blue;
 
 $color-border-button: #ccc #ccc #bbb;
 $color-border-button-hover: #ccc #bbb #aaa;

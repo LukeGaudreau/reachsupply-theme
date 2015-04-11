@@ -1,0 +1,521 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"mi",
+				"min-height"
+			]
+		]
+	},
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 800.0,
+		"last_filter": "refr",
+		"selected_items":
+		[
+			[
+				"refr",
+				"Project: Refresh Folders"
+			],
+			[
+				"refres",
+				"Project: Refresh Folders"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"gqc",
+				"Git: Quick Commit"
+			],
+			[
+				"gad",
+				"Git: Add Current File"
+			],
+			[
+				"git qc",
+				"Git: Quick Commit"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"git qui",
+				"Git: Quick Commit"
+			],
+			[
+				"git",
+				"Git: Checkout Current File"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"com",
+				"Git: Commit"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"tbas",
+				"View: Toggle Tabs"
+			],
+			[
+				"bind",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"refre",
+				"Project: Refresh Folders"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"tabs",
+				"View: Toggle Tabs"
+			],
+			[
+				"sideba",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"sidebar",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"sidba",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"toggl",
+				"View: Toggle Menu"
+			],
+			[
+				"user ",
+				"Preferences: Settings - User"
+			],
+			[
+				"alignment",
+				"Preferences: Alignment File Settings – User"
+			],
+			[
+				"align",
+				"Preferences: Alignment File Settings – User"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 1202.0
+	},
+	"console":
+	{
+		"height": 252.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			" import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/sass/utilities/mixins/_header_font.scss",
+		"/home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/bower_components/bourbon/app/assets/stylesheets/addons/_font-stacks.scss",
+		"/home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/sass/base/_typography.scss",
+		"/home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/sass/utilities/variables/index.scss",
+		"/home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/sass/utilities/variables/_typography.scss",
+		"/home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/sass/modules/_navigation.scss",
+		"/home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/sass/utilities/mixins/index.scss",
+		"/home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/sass/utilities/variables/_league-spartan.scss",
+		"/home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/bower_components/bitters/app/assets/stylesheets/_variables.scss",
+		"/home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/README.md",
+		"/home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/_s/Gruntfile.js",
+		"/home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/_s/sass/style.scss",
+		"/etc/hosts",
+		"/etc/exports",
+		"/home/luke/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/luke/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/luke/Documents/infosoph/libguides/widgets/hollis+.html",
+		"/home/luke/Documents/infosoph/libguides/widgets/hollis+-fixedwidth.html",
+		"/home/luke/Documents/infosoph/libguides/widgets/hollis+-logo.html",
+		"/home/luke/Documents/infosoph/bedrock/example.dev/web/app/plugins/jetpack/modules/custom-post-types/portfolios.php",
+		"/home/luke/Documents/infosoph/bedrock/example.dev/web/app/themes/sage/node_modules/gulp-sourcemaps/node_modules/graceful-fs/test/open.js",
+		"/home/luke/Documents/infosoph/bedrock/example.dev/web/wp/wp-admin/options-permalink.php",
+		"/home/luke/Documents/infosoph/bedrock/example.dev/web/wp/wp-admin/options.php",
+		"/home/luke/Documents/infosoph/bedrock/example.dev/web/app/themes/sage/node_modules/gulp-less/node_modules/less/.idea/inspectionProfiles/Project_Default.xml",
+		"/home/luke/Documents/infosoph/bedrock/example.dev/web/app/themes/sage/node_modules/gulp-sass/node_modules/node-sass/node_modules/npmconf/test/project.js",
+		"/home/luke/Documents/infosoph/bedrock/example.dev/config/deploy/production.rb",
+		"/home/luke/Documents/infosoph/bedrock/example.dev/web/wp/wp-admin/css/press-this-rtl.css",
+		"/home/luke/.config/sublime-text-3/Packages/User/Base File.sublime-settings",
+		"/home/luke/Documents/infosoph/bedrock/example.dev/web/app/themes/roots-on-the-rocks/page.php",
+		"/home/luke/Documents/infosoph/bedrock/example.dev/web/app/themes/roots-on-the-rocks/templates/page-projects.php",
+		"/home/luke/Documents/infosoph/bedrock/example.dev/web/app/themes/roots-on-the-rocks/Gruntfile.js",
+		"/home/luke/Documents/infosoph/bedrock/example.dev/web/app/themes/roots-on-the-rocks/assets/scss/main.scss",
+		"/home/luke/Documents/infosoph/bedrock/example.dev/web/app/themes/roots-on-the-rocks/lib/project.php",
+		"/home/luke/Documents/infosoph/bedrock/example.dev/web/wp/wp-content/themes/twentyfourteen/genericons/Genericons-Regular.otf",
+		"/home/luke/Documents/infosoph/bedrock/example.dev/Gemfile",
+		"/home/luke/Documents/infosoph/bedrock/example.dev/web/app/themes/roots-on-the-rocks/assets/vendor/modernizr/feature-detects/pointerlock-api.js",
+		"/home/luke/Documents/infosoph/bedrock/example.dev/web/app/themes/roots-on-the-rocks/node_modules/bower/node_modules/update-notifier/node_modules/latest-version/node_modules/package-json/node_modules/registry-url/package.json",
+		"/home/luke/Documents/infosoph/bedrock/example.dev/web/app/themes/roots-on-the-rocks/templates/page-header.php",
+		"/home/luke/Documents/infosoph/bedrock/example.dev/web/app/themes/roots-on-the-rocks/templates/comments.php",
+		"/home/luke/Documents/infosoph/bedrock/example.dev/web/app/themes/roots-on-the-rocks/node_modules/grunt-contrib-uglify/node_modules/lodash/string/templateSettings.js",
+		"/home/luke/Documents/infosoph/bedrock/example.dev/web/wp/wp-includes/template.php",
+		"/home/luke/Documents/infosoph/bedrock/example.dev/web/wp/wp-admin/theme-editor.php",
+		"/home/luke/Documents/infosoph/bedrock/example.dev/web/wp/wp-admin/themes.php",
+		"/home/luke/.config/sublime-text-3/Packages/Terminal/Base File.sublime-settings",
+		"/home/luke/.config/sublime-text-3/Packages/Alignment/Default (Linux).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 68.0
+	},
+	"find_in_files":
+	{
+		"height": 194.0,
+		"where_history":
+		[
+			"",
+			"*.scss",
+			"",
+			"*.scss",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"center-block",
+			"src: url",
+			"li",
+			"centered-navigation",
+			"_s-",
+			" _s",
+			"Text Domain: _s",
+			"_s_",
+			"'_s'",
+			"_s-",
+			" _s",
+			"Text Domain: _s",
+			"_s_",
+			"'_s'",
+			"_s_",
+			"'_s'",
+			"_s",
+			"roboto",
+			"WP_DEBUG",
+			"SCRIPT_DEBUG",
+			"script_de",
+			"primary-color",
+			"somelikeitneat",
+			"example.dev",
+			"example.com",
+			"example.dev",
+			"synced_folder",
+			"\": ",
+			"menu",
+			"primoQUeryTemp",
+			"permalink",
+			"link",
+			"',",
+			"Recipe",
+			"Recipes"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"site-header",
+			"reachsupply-",
+			" reachsupply",
+			"Text Domain: reachsupply",
+			"reachsupply_",
+			"'reachsupply'",
+			"reachsupply-",
+			" reachsupply",
+			"Text Domain: reachsupply",
+			"reachsupply_",
+			"'reachsupply'",
+			"reachsupply",
+			"'reachsupply'",
+			"reachsupply",
+			"old-fashioned.io",
+			"old-fashioned.dev",
+			"Project",
+			"Recipe",
+			"Projects"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"incremental_find":
+	{
+		"height": 40.0
+	},
+	"input":
+	{
+		"height": 64.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 200.0
+	},
+	"pinned_build_system": "",
+	"replace":
+	{
+		"height": 132.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"nav",
+				"sass/modules/_navigation.scss"
+			],
+			[
+				"",
+				"sass/base/_typography.scss"
+			],
+			[
+				"font-stacks",
+				"bower_components/bourbon/app/assets/stylesheets/addons/_font-stacks.scss"
+			],
+			[
+				"typo",
+				"sass/base/_typography.scss"
+			],
+			[
+				"var",
+				"bower_components/bitters/app/assets/stylesheets/_variables.scss"
+			],
+			[
+				"varscss",
+				"sass/utilities/variables/_colors.scss"
+			],
+			[
+				"vari",
+				"bower_components/bitters/app/assets/stylesheets/_variables.scss"
+			],
+			[
+				"navscs",
+				"sass/modules/_navigation.scss"
+			],
+			[
+				"headphp",
+				"header.php"
+			],
+			[
+				"header.sc",
+				"sass/modules/_header.scss"
+			],
+			[
+				"heade",
+				"sass/modules/_header.scss"
+			],
+			[
+				"header.scss",
+				"sass/modules/_header.scss"
+			],
+			[
+				"header",
+				"header.php"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"style.scss",
+				"sass/style.scss"
+			],
+			[
+				"gurn",
+				"Gruntfile.js"
+			],
+			[
+				"grunt",
+				"_s/Gruntfile.js"
+			],
+			[
+				"func",
+				"functions.php"
+			],
+			[
+				"variables",
+				"assets/sass/base/_variables.scss"
+			],
+			[
+				"variable",
+				"assets/sass/components/_variables.scss"
+			],
+			[
+				"app.scss",
+				"assets/sass/_app.scss"
+			],
+			[
+				".scss",
+				"assets/sass/style.scss"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"cu",
+				"~/Documents/infosoph/libguides/look and feel/custom-css.html"
+			],
+			[
+				"page.php",
+				"web/app/themes/roots-on-the-rocks/page.php"
+			],
+			[
+				"proj",
+				"web/app/themes/roots-on-the-rocks/lib/project.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 1000.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/infosoph/vagrant-local/www/reachsupply/htdocs/wp-content/themes/reachsupply/reachsupply.sublime-workspace"
+			],
+			[
+				"note",
+				"~/Notes/notes.sublime-project"
+			],
+			[
+				"notes",
+				"~/Notes/notes.sublime-project"
+			]
+		],
+		"width": 760.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 433.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
