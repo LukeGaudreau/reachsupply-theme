@@ -4,6 +4,8 @@
 $dark-blue: #0B486B;
 $light-blue: #42839B;
 $ivory: #FFFBEB;
+$blackberry: #341127;
+$red: #80061C;
 
 $color-background-header: $dark-blue;
 $color-background-body: #fff;
@@ -16,10 +18,10 @@ $color-background-ins: #fff9c0;
 $color-text-screen-reader: #21759b;
 $color-text-input: #666;
 $color-text-input-focus: #111;
-$color-link: royalblue;
-$color-link-visited: purple;
-$color-link-hover: midnightblue;
-$color-text-main: #404040;
+$color-link: $light-blue;
+$color-link-visited: $dark-blue;
+$color-link-hover: $dark-blue;
+$color-text-main: $blackberry;
 $color-link-header: $ivory;
 $color-logo: $light-blue;
 
