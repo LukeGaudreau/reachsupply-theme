@@ -1,3 +1,11 @@
 //--------------------------------------------------------------
 // Footer
 //--------------------------------------------------------------
+
+.site-footer {
+	background-color: $color-background-footer;
+	color: $color-text-footer;
+	a {
+		color: $color-link-footer;
+	}
+}

@@ -1471,6 +1471,19 @@ textarea {
 	display: block;
 }
 
+/* line 5, sass/modules/_footer.scss */
+
+.site-footer {
+	background-color: #341127;
+	color: #FFFBEB;
+}
+
+/* line 8, sass/modules/_footer.scss */
+
+.site-footer a {
+	color: #D9CEB2;
+}
+
 /*--------------------------------------------------------------
 Infinite scroll
 --------------------------------------------------------------*/
@@ -1516,9 +1529,24 @@ Infinite scroll
 	width: 100%;
 }
 
-/* line 26, sass/structure/_layout.scss */
+/* line 20, /home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/bower_components/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
 
-#secondary {
+.site-footer::after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+/* line 29, sass/structure/_layout.scss */
+
+.site-footer .menu {
+	display: none;
+}
+
+/* line 33, sass/structure/_layout.scss */
+
+.site-footer #secondary {
+	margin: 20px auto;
 	width: 100%;
 }
 
@@ -1563,19 +1591,24 @@ Infinite scroll
 	margin-right: 0;
 }
 
-/* line 26, sass/structure/_layout.scss */
+/* line 33, sass/structure/_layout.scss */
 
-#secondary {
+.site-footer #secondary {
+	margin: 40px auto 60px;
+}
+
+/* line 33, sass/structure/_layout.scss */
+
+.site-footer #secondary {
 	float: left;
 	display: block;
 	margin-right: 0.74294%;
-	width: 32.83804%;
-	margin-right: 0;
+	width: 100%;
 }
 
 /* line 89, /home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
 
-#secondary:last-child {
+.site-footer #secondary:last-child {
 	margin-right: 0;
 }
 

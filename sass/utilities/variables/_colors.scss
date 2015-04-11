@@ -4,6 +4,7 @@
 $dark-blue: #0B486B;
 $light-blue: #42839B;
 $ivory: #FFFBEB;
+$tan: #D9CEB2;
 $blackberry: #341127;
 $red: #80061C;
 
@@ -14,15 +15,18 @@ $color-background-hr: #ccc;
 $color-background-button: #e6e6e6;
 $color-background-pre: #eee;
 $color-background-ins: #fff9c0;
+$color-background-footer: $blackberry;
 
+$color-text-main: $blackberry;
 $color-text-screen-reader: #21759b;
 $color-text-input: #666;
 $color-text-input-focus: #111;
+$color-text-footer: $ivory;
 $color-link: $light-blue;
 $color-link-visited: $dark-blue;
 $color-link-hover: $dark-blue;
-$color-text-main: $blackberry;
 $color-link-header: $ivory;
+$color-link-footer: $tan;
 $color-logo: $light-blue;
 
 $color-border-button: #ccc #ccc #bbb;
