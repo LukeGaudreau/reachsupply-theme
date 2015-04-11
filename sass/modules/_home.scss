@@ -1,0 +1,52 @@
+// Home Page 
+
+.home {
+	background-color: $color-background-home;
+	.site-content {
+		margin-top: 25%;
+		margin-bottom: 0;
+	}
+	p {
+		color: $color-text-home;
+		font-family: $font-serif;
+		font-style: italic;
+		font-size: 2em;
+		text-align: center;
+	}
+	h1 {
+		text-transform: uppercase;
+		color: $color-text-home;
+		letter-spacing: 0.2em;
+		margin: 0;
+	}
+	.site-header {
+		background-color: $color-background-home;
+	}
+	.entry-content, .hentry {
+		margin: 0;
+	}
+	.main-navigation {
+		@include outer-container;
+	}
+	ul {
+		text-align: center;
+		margin: 0;
+	}
+	.menu-item {
+		display: inline;
+	a {
+      @include button(flat, $color-button-home);
+      font-weight: normal;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      line-height: 1em;
+      padding: 16px 12px 12px 12px;
+      margin: 0 .5em 0 .5em;
+      @include header-font;
+	}
+}
+	.current-menu-item {
+		background: none;
+		display: none;
+	}
+}

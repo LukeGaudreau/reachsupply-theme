@@ -1145,9 +1145,9 @@ a:active {
 	margin: 0 10px 0 0;
 }
 
-/* line 35, sass/modules/_navigation.scss */
+/* line 37, sass/modules/_navigation.scss */
 
-.main-navigation {
+.nav-wrapper .main-navigation {
 	height: auto;
 	width: 100%;
 	clear: both;
@@ -1155,27 +1155,27 @@ a:active {
 	float: left;
 }
 
-/* line 43, sass/modules/_navigation.scss */
+/* line 44, sass/modules/_navigation.scss */
 
-.main-navigation ul {
+.nav-wrapper ul {
 	list-style: none;
 	margin: 0;
 	padding-left: 0;
 	text-align: center;
 }
 
-/* line 51, sass/modules/_navigation.scss */
+/* line 52, sass/modules/_navigation.scss */
 
-.main-navigation li {
+.nav-wrapper li {
 	display: inline;
 	text-align: center;
 	width: 100%;
 	line-height: 4em;
 }
 
-/* line 61, sass/modules/_navigation.scss */
+/* line 62, sass/modules/_navigation.scss */
 
-.main-navigation a {
+.nav-wrapper a {
 	display: inline-block;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -1186,23 +1186,23 @@ a:active {
 	font-weight: normal;
 }
 
-/* line 72, sass/modules/_navigation.scss */
+/* line 73, sass/modules/_navigation.scss */
 
-.main-navigation .menu-item-home a {
+.nav-wrapper .menu-item-home a {
 	background: url("images/logo-lt-blue.svg") no-repeat center center;
 	background-size: auto 2.8em;
 	color: transparent;
 	text-indent: -9999px;
 }
 
-/* line 86, sass/modules/_navigation.scss */
+/* line 87, sass/modules/_navigation.scss */
 
 .menu-toggle,
 .mobile-logo {
 	display: none;
 }
 
-/* line 108, sass/modules/_navigation.scss */
+/* line 109, sass/modules/_navigation.scss */
 
 .site-main .comment-navigation,
 .site-main
@@ -1213,7 +1213,7 @@ a:active {
 	overflow: hidden;
 }
 
-/* line 113, sass/modules/_navigation.scss */
+/* line 114, sass/modules/_navigation.scss */
 
 .comment-navigation .nav-previous,
 .posts-navigation .nav-previous,
@@ -1223,7 +1223,7 @@ a:active {
 	float: left;
 }
 
-/* line 119, sass/modules/_navigation.scss */
+/* line 120, sass/modules/_navigation.scss */
 
 .comment-navigation .nav-next,
 .posts-navigation .nav-next,
@@ -1484,6 +1484,132 @@ textarea {
 	color: #D9CEB2;
 }
 
+/* line 3, sass/modules/_home.scss */
+
+.home {
+	background-color: #42839B;
+}
+
+/* line 5, sass/modules/_home.scss */
+
+.home .site-content {
+	margin-top: 25%;
+	margin-bottom: 0;
+}
+
+/* line 9, sass/modules/_home.scss */
+
+.home p {
+	color: #FFFBEB;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-style: italic;
+	font-size: 2em;
+	text-align: center;
+}
+
+/* line 16, sass/modules/_home.scss */
+
+.home h1 {
+	text-transform: uppercase;
+	color: #FFFBEB;
+	letter-spacing: 0.2em;
+	margin: 0;
+}
+
+/* line 22, sass/modules/_home.scss */
+
+.home .site-header {
+	background-color: #42839B;
+}
+
+/* line 25, sass/modules/_home.scss */
+
+.home .entry-content,
+.home .hentry {
+	margin: 0;
+}
+
+/* line 28, sass/modules/_home.scss */
+
+.home .main-navigation {
+	max-width: 64em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* line 20, /home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/bower_components/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+
+.home .main-navigation::after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+/* line 31, sass/modules/_home.scss */
+
+.home ul {
+	text-align: center;
+	margin: 0;
+}
+
+/* line 35, sass/modules/_home.scss */
+
+.home .menu-item {
+	display: inline;
+}
+
+/* line 37, sass/modules/_home.scss */
+
+.home .menu-item a {
+	background-color: #0B486B;
+	border-radius: 3px;
+	border: 0;
+	color: white;
+	display: inline-block;
+	font-size: inherit;
+	font-weight: bold;
+	padding: 7px 18px;
+	text-decoration: none;
+	background-clip: padding-box;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	line-height: 1em;
+	padding: 16px 12px 12px 12px;
+	margin: 0 .5em 0 .5em;
+	font-family: "League Spartan";
+	font-weight: normal;
+}
+
+/* line 354, /home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/bower_components/bourbon/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss */
+
+.home .menu-item a:hover:not(:disabled) {
+	background-color: #0b5885;
+	cursor: pointer;
+}
+
+/* line 365, /home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/bower_components/bourbon/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss */
+
+.home .menu-item a:active:not(:disabled),
+.home .menu-item a:focus:not(:disabled) {
+	background-color: #0a3852;
+	cursor: pointer;
+}
+
+/* line 59, /home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/bower_components/bourbon/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss */
+
+.home .menu-item a:disabled {
+	cursor: not-allowed;
+	opacity: 0.5;
+}
+
+/* line 48, sass/modules/_home.scss */
+
+.home .current-menu-item {
+	background: none;
+	display: none;
+}
+
 /*--------------------------------------------------------------
 Infinite scroll
 --------------------------------------------------------------*/
@@ -1616,7 +1742,7 @@ Infinite scroll
 
 @media screen and (max-width: 600px) {
 
-/* line 92, sass/modules/_navigation.scss */
+/* line 93, sass/modules/_navigation.scss */
 
 .menu-toggle,
 .mobile-logo,
@@ -1624,7 +1750,7 @@ Infinite scroll
 	display: block;
 }
 
-/* line 98, sass/modules/_navigation.scss */
+/* line 99, sass/modules/_navigation.scss */
 
 .main-navigation ul,
 .main-navigation li.menu-item-home {

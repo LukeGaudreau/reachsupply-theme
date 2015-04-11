@@ -22,8 +22,6 @@
 
 <body <?php body_class(); ?>>
 	<div id="page" class="hfeed">
-		<div class="nav-wrapper">
-		<?php get_template_part( 'navigation' ); ?>
-		</div><!-- .nav-wrapper -->
+
 		<div id="content-wrapper" class="container">
 			<div id="content" class="site-content">
