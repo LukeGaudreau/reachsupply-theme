@@ -17,6 +17,7 @@
 			<?php printf( __( 'Theme: %1$s by %2$s.', 'reachsupply' ), 'reachsupply', '<a href="http://automattic.com/" rel="designer">Automattic</a>' ); ?>
 		</div><!-- .site-info -->
 
+			<?php get_sidebar(); ?>
 		<?php wp_nav_menu( array( 'theme_location' => 'social', 'link_before' => '<span class="screen-reader-text">', 'link_after' => '</span>' ) ); ?>
 	</footer><!-- #colophon -->
 </div><!-- #page -->

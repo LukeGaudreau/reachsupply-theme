@@ -1475,7 +1475,7 @@ Infinite scroll
 /* line 6, sass/structure/_layout.scss */
 
 .container {
-	max-width: 85.375em;
+	max-width: 64em;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -1538,7 +1538,7 @@ Infinite scroll
 	float: left;
 	display: block;
 	margin-right: 0.74294%;
-	width: 66.41902%;
+	width: 100%;
 }
 
 /* line 89, /home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
