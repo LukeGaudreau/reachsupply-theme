@@ -21,12 +21,14 @@ h4,
 h5,
 h6 {
 	clear: both;
+	@include header-font;
 }
 
 // Copy
 
 p {
 	@include margin(0 0 24px 0);
+	font-size: 1.2em;
 }
 
 b,

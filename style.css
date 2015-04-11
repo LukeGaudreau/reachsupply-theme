@@ -714,22 +714,25 @@ h4,
 h5,
 h6 {
 	clear: both;
+	font-family: "League Spartan";
+	font-weight: normal;
 }
 
-/* line 28, sass/base/_typography.scss */
+/* line 29, sass/base/_typography.scss */
 
 p {
 	margin: 0 0 24px;
+	font-size: 1.2em;
 }
 
-/* line 32, sass/base/_typography.scss */
+/* line 34, sass/base/_typography.scss */
 
 b,
 strong {
 	font-weight: 700;
 }
 
-/* line 37, sass/base/_typography.scss */
+/* line 39, sass/base/_typography.scss */
 
 dfn,
 cite,
@@ -738,7 +741,7 @@ i {
 	font-style: italic;
 }
 
-/* line 44, sass/base/_typography.scss */
+/* line 46, sass/base/_typography.scss */
 
 blockquote,
 q {
@@ -746,7 +749,7 @@ q {
 	quotes: "" "";
 }
 
-/* line 50, sass/base/_typography.scss */
+/* line 52, sass/base/_typography.scss */
 
 blockquote:before,
 blockquote:after,
@@ -755,13 +758,13 @@ q:after {
 	content: "";
 }
 
-/* line 56, sass/base/_typography.scss */
+/* line 58, sass/base/_typography.scss */
 
 address {
 	margin: 0 0 24px;
 }
 
-/* line 60, sass/base/_typography.scss */
+/* line 62, sass/base/_typography.scss */
 
 pre {
 	margin: 0 0 24px;
@@ -774,7 +777,7 @@ pre {
 	overflow: auto;
 }
 
-/* line 72, sass/base/_typography.scss */
+/* line 74, sass/base/_typography.scss */
 
 code,
 kbd,
@@ -784,7 +787,7 @@ var {
 	font-size: 0.9375rem;
 }
 
-/* line 80, sass/base/_typography.scss */
+/* line 82, sass/base/_typography.scss */
 
 abbr,
 acronym {
@@ -792,7 +795,7 @@ acronym {
 	cursor: help;
 }
 
-/* line 86, sass/base/_typography.scss */
+/* line 88, sass/base/_typography.scss */
 
 mark,
 ins {
@@ -800,7 +803,7 @@ ins {
 	text-decoration: none;
 }
 
-/* line 92, sass/base/_typography.scss */
+/* line 94, sass/base/_typography.scss */
 
 sup,
 sub {
@@ -811,25 +814,25 @@ sub {
 	vertical-align: baseline;
 }
 
-/* line 101, sass/base/_typography.scss */
+/* line 103, sass/base/_typography.scss */
 
 sup {
 	bottom: 1ex;
 }
 
-/* line 105, sass/base/_typography.scss */
+/* line 107, sass/base/_typography.scss */
 
 sub {
 	top: .5ex;
 }
 
-/* line 109, sass/base/_typography.scss */
+/* line 111, sass/base/_typography.scss */
 
 small {
 	font-size: 75%;
 }
 
-/* line 113, sass/base/_typography.scss */
+/* line 115, sass/base/_typography.scss */
 
 big {
 	font-size: 125%;
@@ -1176,14 +1179,14 @@ a:active {
 	display: inline-block;
 	text-decoration: none;
 	text-transform: uppercase;
+	letter-spacing: 0.2em;
 	color: #FFFBEB;
 	width: 12em;
 	font-family: "League Spartan";
 	font-weight: normal;
-	letter-spacing: 0.2em;
 }
 
-/* line 71, sass/modules/_navigation.scss */
+/* line 72, sass/modules/_navigation.scss */
 
 .main-navigation .menu-item-home a {
 	background: url("images/logo-lt-blue.svg") no-repeat center center;
@@ -1192,14 +1195,14 @@ a:active {
 	text-indent: -9999px;
 }
 
-/* line 85, sass/modules/_navigation.scss */
+/* line 86, sass/modules/_navigation.scss */
 
 .menu-toggle,
 .mobile-logo {
 	display: none;
 }
 
-/* line 107, sass/modules/_navigation.scss */
+/* line 108, sass/modules/_navigation.scss */
 
 .site-main .comment-navigation,
 .site-main
@@ -1210,7 +1213,7 @@ a:active {
 	overflow: hidden;
 }
 
-/* line 112, sass/modules/_navigation.scss */
+/* line 113, sass/modules/_navigation.scss */
 
 .comment-navigation .nav-previous,
 .posts-navigation .nav-previous,
@@ -1220,7 +1223,7 @@ a:active {
 	float: left;
 }
 
-/* line 118, sass/modules/_navigation.scss */
+/* line 119, sass/modules/_navigation.scss */
 
 .comment-navigation .nav-next,
 .posts-navigation .nav-next,
@@ -1236,35 +1239,48 @@ a:active {
 .entry-title {
 	font-size: 2.25rem;
 	word-wrap: break-word;
+	text-align: center;
 }
 
-/* line 12, sass/modules/_content.scss */
+/* line 11, sass/modules/_content.scss */
+
+.entry-title a {
+	color: #341127;
+}
+
+/* line 13, sass/modules/_content.scss */
+
+.entry-title a:hover {
+	color: #0B486B;
+}
+
+/* line 19, sass/modules/_content.scss */
 
 .sticky {
 	display: block;
 }
 
-/* line 16, sass/modules/_content.scss */
+/* line 23, sass/modules/_content.scss */
 
 .hentry {
 	margin: 0 0 24px;
 }
 
-/* line 20, sass/modules/_content.scss */
+/* line 27, sass/modules/_content.scss */
 
 .byline,
 .updated:not(.published) {
 	display: none;
 }
 
-/* line 25, sass/modules/_content.scss */
+/* line 32, sass/modules/_content.scss */
 
 .single .byline,
 .group-blog .byline {
 	display: inline;
 }
 
-/* line 30, sass/modules/_content.scss */
+/* line 37, sass/modules/_content.scss */
 
 .page-content,
 .entry-content,
@@ -1272,20 +1288,20 @@ a:active {
 	margin: 24px 0 0;
 }
 
-/* line 36, sass/modules/_content.scss */
+/* line 43, sass/modules/_content.scss */
 
 .page-links {
 	margin: 0 0 24px;
 	clear: both;
 }
 
-/* line 42, sass/modules/_content.scss */
+/* line 49, sass/modules/_content.scss */
 
 .edit-link {
 	margin: 0 24px;
 }
 
-/* line 48, sass/modules/_content.scss */
+/* line 55, sass/modules/_content.scss */
 
 .blog .format-aside .entry-title,
 .archive .format-aside .entry-title {
@@ -1567,7 +1583,7 @@ Infinite scroll
 
 @media screen and (max-width: 600px) {
 
-/* line 91, sass/modules/_navigation.scss */
+/* line 92, sass/modules/_navigation.scss */
 
 .menu-toggle,
 .mobile-logo,
@@ -1575,7 +1591,7 @@ Infinite scroll
 	display: block;
 }
 
-/* line 97, sass/modules/_navigation.scss */
+/* line 98, sass/modules/_navigation.scss */
 
 .main-navigation ul,
 .main-navigation li.menu-item-home {
