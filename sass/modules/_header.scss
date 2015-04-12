@@ -12,6 +12,21 @@
 	font-size: rem(24);
 	margin-bottom: em(24px);
 }
-.site-header {
+.site-header-logo > h1 {
+	font-size: 1em;
+	text-align: center;
+	 a  {
+	text-transform: uppercase;
+	color: $color-link-visited;
+	letter-spacing: 0.2em;
+	margin: 0;
+	background-image: url("images/logo-dk-blue.svg");
+	background-position: top center; 
+	background-repeat: no-repeat;
+	padding: 6.25em 0 0 0.2em;
+	background-size: 9.75em;
+}
+}
+.site-header > nav {
 	background-color: $color-background-header;
 }

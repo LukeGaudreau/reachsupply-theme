@@ -8,7 +8,9 @@
  */
 
 get_header( 'home' ); ?>
-
+<div class="home-menu">
+	<?php get_template_part( 'navigation' ); ?>
+</div>
 <div id="primary" class="content-area">
 	<main id="main" class="site-main" role="main">
 
@@ -31,9 +33,7 @@ get_header( 'home' ); ?>
 </div><!-- #content -->
 </div><!-- #content-wrapper -->
 </div><!-- #page -->
-<div class="home-menu">
-	<?php get_template_part( 'navigation' ); ?>
-</div>
+
 <?php wp_footer(); ?>
 
 </body>

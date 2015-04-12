@@ -1115,7 +1115,28 @@ img {
 
 /* line 15, sass/modules/_header.scss */
 
-.site-header {
+.site-header-logo > h1 {
+	font-size: 1em;
+	text-align: center;
+}
+
+/* line 18, sass/modules/_header.scss */
+
+.site-header-logo > h1 a {
+	text-transform: uppercase;
+	color: #0B486B;
+	letter-spacing: 0.2em;
+	margin: 0;
+	background-image: url("images/logo-dk-blue.svg");
+	background-position: top center;
+	background-repeat: no-repeat;
+	padding: 6.25em 0 0 0.2em;
+	background-size: 9.75em;
+}
+
+/* line 30, sass/modules/_header.scss */
+
+.site-header > nav {
 	background-color: #0B486B;
 }
 
@@ -1189,20 +1210,32 @@ a:active {
 /* line 73, sass/modules/_navigation.scss */
 
 .nav-wrapper .menu-item-home a {
-	background: url("images/logo-lt-blue.svg") no-repeat center center;
-	background-size: auto 2.8em;
 	color: transparent;
 	text-indent: -9999px;
 }
 
+/* line 84, sass/modules/_navigation.scss */
+
+.anchor.anchor-moved {
+	position: fixed;
+	top: 0;
+}
+
 /* line 87, sass/modules/_navigation.scss */
 
-.menu-toggle,
-.mobile-logo {
+.anchor.anchor-moved .menu-item-home {
+	background: url("images/logo-lt-blue.svg") no-repeat center center;
+	background-size: auto 3em;
+	padding: 1em 0 1em 0;
+}
+
+/* line 96, sass/modules/_navigation.scss */
+
+.menu-toggle {
 	display: none;
 }
 
-/* line 109, sass/modules/_navigation.scss */
+/* line 116, sass/modules/_navigation.scss */
 
 .site-main .comment-navigation,
 .site-main
@@ -1213,7 +1246,7 @@ a:active {
 	overflow: hidden;
 }
 
-/* line 114, sass/modules/_navigation.scss */
+/* line 121, sass/modules/_navigation.scss */
 
 .comment-navigation .nav-previous,
 .posts-navigation .nav-previous,
@@ -1223,7 +1256,7 @@ a:active {
 	float: left;
 }
 
-/* line 120, sass/modules/_navigation.scss */
+/* line 127, sass/modules/_navigation.scss */
 
 .comment-navigation .nav-next,
 .posts-navigation .nav-next,
@@ -1492,12 +1525,21 @@ textarea {
 
 /* line 5, sass/modules/_home.scss */
 
-.home .site-content {
-	margin-top: 10%;
-	margin-bottom: 0;
+.home .site-header-logo > h1 {
+	margin: 35% 0 0 0;
+	font-size: 2em;
 }
 
-/* line 9, sass/modules/_home.scss */
+/* line 8, sass/modules/_home.scss */
+
+.home .site-header-logo > h1 a {
+	background-image: url("images/logo-ivory.svg");
+	padding: 6.25em 0 0 0.1em;
+	background-size: 9.75em;
+	color: #FFFBEB;
+}
+
+/* line 15, sass/modules/_home.scss */
 
 .home p {
 	color: #FFFBEB;
@@ -1506,41 +1548,41 @@ textarea {
 	font-size: 2em;
 	text-align: center;
 	text-shadow: 0px 2px 2px #336577;
+	margin-top: -3em;
 }
 
-/* line 17, sass/modules/_home.scss */
+/* line 24, sass/modules/_home.scss */
 
-.home h1 {
-	text-transform: uppercase;
-	color: #FFFBEB;
-	letter-spacing: 0.2em;
-	margin: 0;
-	background-image: url("images/logo-ivory.svg");
-	background-position: top center;
-	background-repeat: no-repeat;
-	padding-top: 6.5em;
-	background-size: 10em;
+.home .entry-title {
+	display: none;
 }
 
-/* line 28, sass/modules/_home.scss */
+/* line 27, sass/modules/_home.scss */
 
 .home .site-header {
 	background-color: #42839B;
 }
 
-/* line 31, sass/modules/_home.scss */
+/* line 30, sass/modules/_home.scss */
 
 .home .entry-content,
 .home .hentry {
 	margin: 0;
 }
 
-/* line 34, sass/modules/_home.scss */
+/* line 33, sass/modules/_home.scss */
+
+.home .site-header > nav {
+	background-color: transparent;
+}
+
+/* line 36, sass/modules/_home.scss */
 
 .home .main-navigation {
 	max-width: 64em;
 	margin-left: auto;
 	margin-right: auto;
+	padding-top: 3em;
 }
 
 /* line 20, /home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/bower_components/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
@@ -1551,20 +1593,20 @@ textarea {
 	display: table;
 }
 
-/* line 37, sass/modules/_home.scss */
+/* line 40, sass/modules/_home.scss */
 
 .home ul {
 	text-align: center;
 	margin: 0;
 }
 
-/* line 41, sass/modules/_home.scss */
+/* line 44, sass/modules/_home.scss */
 
 .home .menu-item {
 	display: inline;
 }
 
-/* line 43, sass/modules/_home.scss */
+/* line 46, sass/modules/_home.scss */
 
 .home .menu-item a {
 	background-color: #0B486B;
@@ -1609,7 +1651,7 @@ textarea {
 	opacity: 0.5;
 }
 
-/* line 54, sass/modules/_home.scss */
+/* line 57, sass/modules/_home.scss */
 
 .home .current-menu-item {
 	background: none;
@@ -1748,15 +1790,14 @@ Infinite scroll
 
 @media screen and (max-width: 600px) {
 
-/* line 93, sass/modules/_navigation.scss */
+/* line 101, sass/modules/_navigation.scss */
 
 .menu-toggle,
-.mobile-logo,
 .main-navigation.toggled .nav-menu {
 	display: block;
 }
 
-/* line 99, sass/modules/_navigation.scss */
+/* line 106, sass/modules/_navigation.scss */
 
 .main-navigation ul,
 .main-navigation li.menu-item-home {
