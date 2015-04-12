@@ -65,10 +65,17 @@ a {
 		text-transform: uppercase;
 		letter-spacing: 0.2em;
 		color: $color-link-header;
-		width: $nav-height*3;
+		width: $nav-height*2;
 		@include header-font;
+		&.menu-toggle {
+			display: none;
+		}
 	}
-
+	@media screen and (max-width: 900px) {
+		a {
+			width: $nav-height*3;
+		}
+	}
 	// Menu logo
 	.menu-item-home a {
 		color: transparent;
@@ -93,16 +100,22 @@ a {
 }
 // Small menu
 
-.menu-toggle {
-	display: none;
-}
-
 @media screen and (max-width: 600px) {
-	.menu-toggle,
+	.nav-wrapper a {
+		width: 100%;
+	}
+	.menu-toggle {
+		text-align:right;
+		padding: .5em;
+	}
+	.anchor-moved a.menu-toggle {
+		background: url("images/logo-lt-blue.svg") no-repeat left .5em center;
+		background-size: auto 2em;
+	}
+	.nav-wrapper a.menu-toggle,
 	.main-navigation.toggled .nav-menu {
 		display: block;
 	}
-
 	.main-navigation ul,
 	.main-navigation li.menu-item-home {
 		display: none;

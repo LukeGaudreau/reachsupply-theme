@@ -5,6 +5,10 @@
 
 .container {
 	@include outer-container;
+	@include padding(.5em);
+	@include wider-than(desktop) {
+		@include padding(0);
+	}
 }
 
 .site-content {

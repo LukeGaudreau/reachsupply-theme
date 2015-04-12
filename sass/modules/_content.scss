@@ -15,7 +15,11 @@
 		}
 	}
 }
-
+@media screen and (max-width: 600px) {
+	.entry-title {
+		font-size: rem(24);
+	}
+}
 .sticky {
 	display: block;
 }

@@ -13,8 +13,8 @@
 	</div><!-- .site-branding -->
 
 	<nav id="site-navigation" class="main-navigation anchor" role="navigation">
-		<button class="menu-toggle" aria-controls="menu" aria-expanded="false"><?php _e( 'Primary Menu', 'reachsupply' ); ?>
-		</button>
+		<a class="menu-toggle" aria-controls="menu" aria-expanded="false"><i class="fa fa-bars fa-2x"></i>
+		</a>
 		<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 	</nav><!-- #site-navigation -->
 </header><!-- #masthead -->
