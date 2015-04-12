@@ -4,8 +4,20 @@
 		"selected_items":
 		[
 			[
+				"no-",
+				"no-repeat"
+			],
+			[
 				"back",
-				"background-image"
+				"background-color"
+			],
+			[
+				"textr",
+				"text-transform"
+			],
+			[
+				"get_temp",
+				"get_template_part"
 			],
 			[
 				"backgr",
@@ -25,9 +37,17 @@
 	"command_palette":
 	{
 		"height": 800.0,
-		"last_filter": "refr",
+		"last_filter": "reind",
 		"selected_items":
 		[
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ind",
+				"Indentation: Reindent Lines"
+			],
 			[
 				"refr",
 				"Project: Refresh Folders"
@@ -161,7 +181,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 1202.0
+		"width": 932.0
 	},
 	"console":
 	{
@@ -183,12 +203,23 @@
 	},
 	"file_history":
 	[
+		"/home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/sass/utilities/variables/_home.scss",
+		"/home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/navigation.php",
+		"/home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/sidebar.php",
+		"/home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/sass/structure/_layout.scss",
+		"/home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/index.php",
+		"/home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/sass/modules/_header.scss",
+		"/home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/.sass-cache/b653713a74f465dd0454cb1ce374131e1346b693/_colors.scssc",
+		"/home/luke/.cache/.fr-Un9aFv/stylesheet.css",
+		"/home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/footer.php",
+		"/home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/sass/utilities/mixins/_header-font.scss",
+		"/home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/header.php",
+		"/home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/sass/modules/_navigation.scss",
+		"/home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/sass/base/_typography.scss",
 		"/home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/sass/utilities/mixins/_header_font.scss",
 		"/home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/bower_components/bourbon/app/assets/stylesheets/addons/_font-stacks.scss",
-		"/home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/sass/base/_typography.scss",
 		"/home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/sass/utilities/variables/index.scss",
 		"/home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/sass/utilities/variables/_typography.scss",
-		"/home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/sass/modules/_navigation.scss",
 		"/home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/sass/utilities/mixins/index.scss",
 		"/home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/sass/utilities/variables/_league-spartan.scss",
 		"/home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/bower_components/bitters/app/assets/stylesheets/_variables.scss",
@@ -250,6 +281,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"open sans",
+			"color-background-body",
+			"min-width",
+			"body {",
+			"$font-serif",
+			"$font-sans",
+			"leaguespartan",
+			"league-spartan",
+			"leage-spartan",
+			".site {",
 			"center-block",
 			"src: url",
 			"li",
@@ -370,12 +411,100 @@
 		"selected_items":
 		[
 			[
+				"home.cs",
+				"sass/modules/_home.scss"
+			],
+			[
+				"head",
+				"header-home.php"
+			],
+			[
+				"typ",
+				"sass/base/_typography.scss"
+			],
+			[
+				"home",
+				"sass/modules/_home.scss"
+			],
+			[
+				"colo",
+				"sass/utilities/variables/_colors.scss"
+			],
+			[
+				"hom",
+				"header-home.php"
+			],
+			[
+				"",
+				"sass/utilities/variables/_colors.scss"
+			],
+			[
+				"naviga",
+				"sass/modules/_navigation.scss"
+			],
+			[
+				"colors",
+				"sass/utilities/variables/_colors.scss"
+			],
+			[
+				"front",
+				"front-page.php"
+			],
+			[
+				"foot",
+				"sass/modules/_footer.scss"
+			],
+			[
+				"foo",
+				"sass/modules/_footer.scss"
+			],
+			[
+				"footer",
+				"sass/modules/_footer.scss"
+			],
+			[
+				"color",
+				".sass-cache/b653713a74f465dd0454cb1ce374131e1346b693/_colors.scssc"
+			],
+			[
+				"la",
+				"sass/structure/_layout.scss"
+			],
+			[
+				"layou",
+				"sass/structure/_layout.scss"
+			],
+			[
+				"ind",
+				"index.php"
+			],
+			[
+				"content.scss",
+				"sass/modules/_content.scss"
+			],
+			[
+				"vartypo",
+				"sass/utilities/variables/_typography.scss"
+			],
+			[
+				"utiltyp",
+				"sass/utilities/variables/_typography.scss"
+			],
+			[
+				"headerfont",
+				"sass/utilities/mixins/_header-font.scss"
+			],
+			[
 				"nav",
 				"sass/modules/_navigation.scss"
 			],
 			[
-				"",
-				"sass/base/_typography.scss"
+				"layout.scss",
+				"sass/structure/_layout.scss"
+			],
+			[
+				"header",
+				"header.php"
 			],
 			[
 				"font-stacks",
@@ -416,10 +545,6 @@
 			[
 				"header.scss",
 				"sass/modules/_header.scss"
-			],
-			[
-				"header",
-				"header.php"
 			],
 			[
 				"read",
@@ -513,7 +638,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 433.0,
+	"side_bar_width": 434.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

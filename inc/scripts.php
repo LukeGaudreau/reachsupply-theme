@@ -12,8 +12,8 @@ function reachsupply_font_url() {
 	* supported by the following, translate this to 'off'. Do not translate
 	* into your own language.
 	*/
-	$roboto = _x( 'on', 'Roboto font: on or off', 'reachsupply' );
-	$open_sans = _x( 'on', 'Open Sans font: on or off', 'reachsupply' );
+	$roboto = _x( 'off', 'Roboto font: on or off', 'reachsupply' );
+	$open_sans = _x( 'off', 'Open Sans font: on or off', 'reachsupply' );
 
 	if ( 'off' !== $roboto || 'off' !== $open_sans ) {
 		$font_families = array();

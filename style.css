@@ -1493,7 +1493,7 @@ textarea {
 /* line 5, sass/modules/_home.scss */
 
 .home .site-content {
-	margin-top: 25%;
+	margin-top: 10%;
 	margin-bottom: 0;
 }
 
@@ -1505,31 +1505,37 @@ textarea {
 	font-style: italic;
 	font-size: 2em;
 	text-align: center;
+	text-shadow: 0px 2px 2px #336577;
 }
 
-/* line 16, sass/modules/_home.scss */
+/* line 17, sass/modules/_home.scss */
 
 .home h1 {
 	text-transform: uppercase;
 	color: #FFFBEB;
 	letter-spacing: 0.2em;
 	margin: 0;
+	background-image: url("images/logo-ivory.svg");
+	background-position: top center;
+	background-repeat: no-repeat;
+	padding-top: 6.5em;
+	background-size: 10em;
 }
 
-/* line 22, sass/modules/_home.scss */
+/* line 28, sass/modules/_home.scss */
 
 .home .site-header {
 	background-color: #42839B;
 }
 
-/* line 25, sass/modules/_home.scss */
+/* line 31, sass/modules/_home.scss */
 
 .home .entry-content,
 .home .hentry {
 	margin: 0;
 }
 
-/* line 28, sass/modules/_home.scss */
+/* line 34, sass/modules/_home.scss */
 
 .home .main-navigation {
 	max-width: 64em;
@@ -1545,20 +1551,20 @@ textarea {
 	display: table;
 }
 
-/* line 31, sass/modules/_home.scss */
+/* line 37, sass/modules/_home.scss */
 
 .home ul {
 	text-align: center;
 	margin: 0;
 }
 
-/* line 35, sass/modules/_home.scss */
+/* line 41, sass/modules/_home.scss */
 
 .home .menu-item {
 	display: inline;
 }
 
-/* line 37, sass/modules/_home.scss */
+/* line 43, sass/modules/_home.scss */
 
 .home .menu-item a {
 	background-color: #0B486B;
@@ -1603,7 +1609,7 @@ textarea {
 	opacity: 0.5;
 }
 
-/* line 48, sass/modules/_home.scss */
+/* line 54, sass/modules/_home.scss */
 
 .home .current-menu-item {
 	background: none;

@@ -3,7 +3,7 @@
 .home {
 	background-color: $color-background-home;
 	.site-content {
-		margin-top: 25%;
+		margin-top: 10%;
 		margin-bottom: 0;
 	}
 	p {
@@ -12,12 +12,18 @@
 		font-style: italic;
 		font-size: 2em;
 		text-align: center;
+		text-shadow: 0px 2px 2px darken($color-background-home, 10%);
 	}
 	h1 {
 		text-transform: uppercase;
 		color: $color-text-home;
 		letter-spacing: 0.2em;
 		margin: 0;
+		background-image: url("images/logo-ivory.svg");
+		background-position: top center; 
+		background-repeat: no-repeat;
+		padding-top: 6.5em;
+		background-size: 10em;
 	}
 	.site-header {
 		background-color: $color-background-home;
