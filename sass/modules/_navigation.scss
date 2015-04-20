@@ -21,12 +21,12 @@ a {
 .nav-wrapper {
 }
 .main-navigation {
-		$nav-height: 4em;
-		@include size(100% auto);
-		clear: both;
-		display: block;
-		float: left;
-		
+	$nav-height: 4em;
+	@include size(100% auto);
+	clear: both;
+	display: block;
+	float: left;
+
 	// Menu hyperlinks
 	a {
 		display: inline-block;
@@ -54,19 +54,22 @@ a {
 	.current-menu-item a {
 	}
 		// Menu area
-	ul {
-		list-style: none;
-		margin: 0;
-		padding-left: 0;
-		text-align: center;
-	}
+		ul {
+			list-style: none;
+			margin: 0;
+			padding-left: 0;
+			text-align: center;
+		}
 
 	// Menu items
 	li {
 		display: inline;
 		text-align: center;
 		width: 100%;
-		line-height: $nav-height;
+		a {
+			line-height: $nav-height;
+			height: 4em;
+		}
 		&:hover > a {
 			background-color: $color-link;
 		}
@@ -83,6 +86,11 @@ a {
 			display: inline-block;
 			color: transparent;
 			text-indent: -9999px;
+			&:hover {
+				background: url("images/logo-dk-blue.svg") no-repeat center center;
+				background-size: auto 3em; 
+				background-color: $color-link;
+			}
 		}
 	}
 }
