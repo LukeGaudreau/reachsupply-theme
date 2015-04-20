@@ -17,48 +17,16 @@ a {
 	}
 }
 
-// Default menu (active after a fresh WordPress install)
-
-.menu {
-
-	ul {
-
-		li {
-			@include margin(0 10px 0 0);
-		}
-
-	}
-
-}
-
 // Main navigation (after creating a menu in the dashboard)
 .nav-wrapper {
-	$nav-height: 4em;
-	.main-navigation {
+}
+.main-navigation {
+		$nav-height: 4em;
 		@include size(100% auto);
 		clear: both;
 		display: block;
 		float: left;
-	}
-	// Menu area
-	ul {
-		list-style: none;
-		margin: 0;
-		padding-left: 0;
-		text-align: center;
-	}
-
-	// Menu items
-	li {
-		display: inline;
-		text-align: center;
-		width: 100%;
-		line-height: $nav-height;
-		&:hover > a {
-			background-color: $color-link;
-		}
-	}
-
+		
 	// Menu hyperlinks
 	a {
 		display: inline-block;
@@ -79,12 +47,29 @@ a {
 	}
 	// Menu logo
 	.menu-item-home a {
-		color: transparent;
-		text-indent: -9999px;
+		display: none;
 	}
 	// Current items
 	.current_page_item a,
 	.current-menu-item a {
+	}
+		// Menu area
+	ul {
+		list-style: none;
+		margin: 0;
+		padding-left: 0;
+		text-align: center;
+	}
+
+	// Menu items
+	li {
+		display: inline;
+		text-align: center;
+		width: 100%;
+		line-height: $nav-height;
+		&:hover > a {
+			background-color: $color-link;
+		}
 	}
 }
 // Sticky nav
@@ -92,10 +77,12 @@ a {
 	&.anchor-moved {
 		position: fixed;
 		top: 0;
-		.menu-item-home {
+		.menu-item-home a {
 			background: url("images/logo-lt-blue.svg") no-repeat center center;
 			background-size: auto 3em; 
-			padding: 1em 0 1em 0;
+			display: inline-block;
+			color: transparent;
+			text-indent: -9999px;
 		}
 	}
 }
