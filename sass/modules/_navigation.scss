@@ -55,6 +55,7 @@ a {
 		width: 100%;
 		line-height: $nav-height;
 		&:hover > a {
+			background-color: $color-link;
 		}
 	}
 

@@ -1194,7 +1194,13 @@ a:active {
 	line-height: 4em;
 }
 
-/* line 62, sass/modules/_navigation.scss */
+/* line 57, sass/modules/_navigation.scss */
+
+.nav-wrapper li:hover > a {
+	background-color: #42839B;
+}
+
+/* line 63, sass/modules/_navigation.scss */
 
 .nav-wrapper a {
 	display: inline-block;
@@ -1207,27 +1213,27 @@ a:active {
 	font-weight: normal;
 }
 
-/* line 70, sass/modules/_navigation.scss */
+/* line 71, sass/modules/_navigation.scss */
 
 .nav-wrapper a.menu-toggle {
 	display: none;
 }
 
-/* line 80, sass/modules/_navigation.scss */
+/* line 81, sass/modules/_navigation.scss */
 
 .nav-wrapper .menu-item-home a {
 	color: transparent;
 	text-indent: -9999px;
 }
 
-/* line 91, sass/modules/_navigation.scss */
+/* line 92, sass/modules/_navigation.scss */
 
 .anchor.anchor-moved {
 	position: fixed;
 	top: 0;
 }
 
-/* line 94, sass/modules/_navigation.scss */
+/* line 95, sass/modules/_navigation.scss */
 
 .anchor.anchor-moved .menu-item-home {
 	background: url("images/logo-lt-blue.svg") no-repeat center center;
@@ -1235,7 +1241,7 @@ a:active {
 	padding: 1em 0 1em 0;
 }
 
-/* line 129, sass/modules/_navigation.scss */
+/* line 130, sass/modules/_navigation.scss */
 
 .site-main .comment-navigation,
 .site-main
@@ -1246,7 +1252,7 @@ a:active {
 	overflow: hidden;
 }
 
-/* line 134, sass/modules/_navigation.scss */
+/* line 135, sass/modules/_navigation.scss */
 
 .comment-navigation .nav-previous,
 .posts-navigation .nav-previous,
@@ -1256,7 +1262,7 @@ a:active {
 	float: left;
 }
 
-/* line 140, sass/modules/_navigation.scss */
+/* line 141, sass/modules/_navigation.scss */
 
 .comment-navigation .nav-next,
 .posts-navigation .nav-next,
@@ -1797,7 +1803,7 @@ Infinite scroll
 
 @media screen and (max-width: 900px) {
 
-/* line 75, sass/modules/_navigation.scss */
+/* line 76, sass/modules/_navigation.scss */
 
 .nav-wrapper a {
 	width: 12em;
@@ -1807,34 +1813,34 @@ Infinite scroll
 
 @media screen and (max-width: 600px) {
 
-/* line 104, sass/modules/_navigation.scss */
+/* line 105, sass/modules/_navigation.scss */
 
 .nav-wrapper a {
 	width: 100%;
 }
 
-/* line 107, sass/modules/_navigation.scss */
+/* line 108, sass/modules/_navigation.scss */
 
 .menu-toggle {
 	text-align: right;
 	padding: .5em;
 }
 
-/* line 111, sass/modules/_navigation.scss */
+/* line 112, sass/modules/_navigation.scss */
 
 .anchor-moved a.menu-toggle {
 	background: url("images/logo-lt-blue.svg") no-repeat left 0.5em center;
 	background-size: auto 2em;
 }
 
-/* line 115, sass/modules/_navigation.scss */
+/* line 116, sass/modules/_navigation.scss */
 
 .nav-wrapper a.menu-toggle,
 .main-navigation.toggled .nav-menu {
 	display: block;
 }
 
-/* line 119, sass/modules/_navigation.scss */
+/* line 120, sass/modules/_navigation.scss */
 
 .main-navigation ul,
 .main-navigation li.menu-item-home {
