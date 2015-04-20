@@ -1566,137 +1566,67 @@ textarea {
 
 /* line 5, sass/modules/_home.scss */
 
-.home .site-header-logo > h1 {
-	margin: 35% 0 0 0;
-	font-size: 2em;
+.home #page {
+	margin: 25% 0 0 0;
 }
 
-/* line 8, sass/modules/_home.scss */
+/* line 13, sass/modules/_home.scss */
 
-.home .site-header-logo > h1 a {
+.home #page h1 {
+	font-size: 1.5em;
+}
+
+/* line 18, sass/modules/_home.scss */
+
+.home #page h1 a {
 	background-image: url("images/logo-ivory.svg");
 	padding: 6.25em 0 0 0.1em;
 	background-size: 9.75em;
 	color: #FFFBEB;
 }
 
-/* line 15, sass/modules/_home.scss */
+/* line 26, sass/modules/_home.scss */
 
 .home p {
 	color: #FFFBEB;
 	font-family: Georgia, Times, "Times New Roman", serif;
 	font-style: italic;
-	font-size: 2em;
+	font-size: 1.2em;
 	text-align: center;
 	text-shadow: 0px 2px 2px #336577;
-	margin-top: -3em;
 }
 
-/* line 24, sass/modules/_home.scss */
+/* line 37, sass/modules/_home.scss */
 
 .home .entry-title {
 	display: none;
 }
 
-/* line 27, sass/modules/_home.scss */
+/* line 40, sass/modules/_home.scss */
 
 .home .site-header {
 	background-color: #42839B;
 }
 
-/* line 30, sass/modules/_home.scss */
+/* line 43, sass/modules/_home.scss */
 
 .home .entry-content,
 .home .hentry {
 	margin: 0;
 }
 
-/* line 33, sass/modules/_home.scss */
-
-.home .site-header > nav {
-	background-color: transparent;
-}
-
-/* line 36, sass/modules/_home.scss */
-
-.home .main-navigation {
-	max-width: 64em;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 3em;
-}
-
-/* line 20, /home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/bower_components/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
-
-.home .main-navigation::after {
-	clear: both;
-	content: "";
-	display: table;
-}
-
-/* line 40, sass/modules/_home.scss */
-
-.home ul {
-	text-align: center;
-	margin: 0;
-}
-
-/* line 44, sass/modules/_home.scss */
-
-.home .menu-item {
-	display: inline;
-}
-
 /* line 46, sass/modules/_home.scss */
 
-.home .menu-item a {
-	background-color: #0B486B;
-	border-radius: 3px;
-	border: 0;
-	color: white;
-	display: inline-block;
-	font-size: inherit;
-	font-weight: bold;
-	padding: 7px 18px;
-	text-decoration: none;
-	background-clip: padding-box;
-	font-weight: normal;
-	text-transform: uppercase;
-	letter-spacing: 0.2em;
-	line-height: 1em;
-	padding: 16px 12px 12px 12px;
-	margin: 0 .5em 0 .5em;
-	font-family: "League Spartan";
-	font-weight: normal;
+.home .main-navigation {
+	position: fixed;
+	top: 0;
+	left: 0;
 }
 
-/* line 354, /home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/bower_components/bourbon/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss */
+/* line 50, sass/modules/_home.scss */
 
-.home .menu-item a:hover:not(:disabled) {
-	background-color: #0b5885;
-	cursor: pointer;
-}
-
-/* line 365, /home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/bower_components/bourbon/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss */
-
-.home .menu-item a:active:not(:disabled),
-.home .menu-item a:focus:not(:disabled) {
-	background-color: #0a3852;
-	cursor: pointer;
-}
-
-/* line 59, /home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/bower_components/bourbon/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss */
-
-.home .menu-item a:disabled {
-	cursor: not-allowed;
-	opacity: 0.5;
-}
-
-/* line 57, sass/modules/_home.scss */
-
-.home .current-menu-item {
-	background: none;
-	display: none;
+.home .main-navigation .menu-item a:hover {
+	background-color: rgba(66, 131, 155, 0.5);
 }
 
 /*--------------------------------------------------------------
@@ -1811,6 +1741,95 @@ Infinite scroll
 	display: inline-block;
 }
 
+/* line 26, sass/modules/_home.scss */
+
+.home p {
+	font-size: 2em;
+}
+
+/* line 55, sass/modules/_home.scss */
+
+.home .main-navigation {
+	position: static;
+	background-color: transparent;
+	max-width: 64em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* line 20, /home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/bower_components/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+
+.home .main-navigation::after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+/* line 59, sass/modules/_home.scss */
+
+.home .main-navigation ul {
+	text-align: center;
+	margin: 0;
+	display: block;
+}
+
+/* line 64, sass/modules/_home.scss */
+
+.home .main-navigation .menu-item {
+	display: inline;
+}
+
+/* line 66, sass/modules/_home.scss */
+
+.home .main-navigation .menu-item a {
+	background-color: #0B486B;
+	border-radius: 3px;
+	border: 0;
+	color: white;
+	display: inline-block;
+	font-size: inherit;
+	font-weight: bold;
+	padding: 7px 18px;
+	text-decoration: none;
+	background-clip: padding-box;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	margin: 0 .5em 0 .5em;
+	padding: .2em 0 0 0;
+	font-family: "League Spartan";
+	font-weight: normal;
+}
+
+/* line 354, /home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/bower_components/bourbon/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss */
+
+.home .main-navigation .menu-item a:hover:not(:disabled) {
+	background-color: #0b5885;
+	cursor: pointer;
+}
+
+/* line 365, /home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/bower_components/bourbon/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss */
+
+.home .main-navigation .menu-item a:active:not(:disabled),
+.home .main-navigation .menu-item a:focus:not(:disabled) {
+	background-color: #0a3852;
+	cursor: pointer;
+}
+
+/* line 59, /home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/bower_components/bourbon/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss */
+
+.home .main-navigation .menu-item a:disabled {
+	cursor: not-allowed;
+	opacity: 0.5;
+}
+
+/* line 76, sass/modules/_home.scss */
+
+.home .main-navigation .current-menu-item {
+	background: none;
+	display: none;
+}
+
 }
 
 @media (min-width: 64em) {
@@ -1821,9 +1840,27 @@ Infinite scroll
 	width: 12em;
 }
 
+/* line 5, sass/modules/_home.scss */
+
+.home #page {
+	margin: 10% 0 0 0;
+}
+
+/* line 13, sass/modules/_home.scss */
+
+.home #page h1 {
+	font-size: 2em;
+}
+
 }
 
 @media (min-width: 85.375em) {
+
+/* line 5, sass/modules/_home.scss */
+
+.home #page {
+	margin: 25% 0 0 0;
+}
 
 /* line 6, sass/structure/_layout.scss */
 
@@ -1881,13 +1918,6 @@ Infinite scroll
 
 .entry-title {
 	font-size: 1.5rem;
-}
-
-/* line 65, sass/modules/_home.scss */
-
-.home .site-header-logo > h1 {
-	margin: 35% 0 0 0;
-	font-size: 2em;
 }
 
 }

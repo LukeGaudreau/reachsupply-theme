@@ -2,24 +2,37 @@
 
 .home {
 	background-color: $color-background-home;
-	.site-header-logo > h1 {
-		margin: 35% 0 0 0;
-		font-size: 2em;
-		a {
-			background-image: url("images/logo-ivory.svg");
-			padding: 6.25em 0 0 0.1em;
-			background-size: 9.75em;
-			color: $color-text-home;
+	#page {
+		margin: 25% 0 0 0;
+		@include wider-than(tablet-landscape) {
+			margin: 10% 0 0 0;
+		}
+		@include wider-than(desktop) {
+			margin: 25% 0 0 0;
+		}
+		h1 {
+			font-size: 1.5em;
+			@include wider-than(tablet-landscape) {
+				font-size: 2em;
+			}
+			a {
+				background-image: url("images/logo-ivory.svg");
+				padding: 6.25em 0 0 0.1em;
+				background-size: 9.75em;
+				color: $color-text-home;
+			}
 		}
 	}
 	p {
 		color: $color-text-home;
 		font-family: $font-serif;
 		font-style: italic;
-		font-size: 2em;
+		font-size: 1.2em;
 		text-align: center;
 		text-shadow: 0px 2px 2px darken($color-background-home, 10%);
-		margin-top: -3em;
+		@include wider-than(tablet-portrait) {
+			font-size: 2em;
+		}
 	}
 	.entry-title {
 		display:none
@@ -30,41 +43,40 @@
 	.entry-content, .hentry {
 		margin: 0;
 	}
-	.site-header > nav {
-		background-color: transparent;
-	}
 	.main-navigation {
-		@include outer-container;
-		padding-top: 3em;
-	}
-	ul {
-		text-align: center;
-		margin: 0;
-	}
-	.menu-item {
-		display: inline;
-		a {
-			@include button(flat, $color-button-home);
-			font-weight: normal;
-			text-transform: uppercase;
-			letter-spacing: 0.2em;
-			line-height: 1em;
-			padding: 16px 12px 12px 12px;
-			margin: 0 .5em 0 .5em;
-			@include header-font;
+		position: fixed;
+		top: 0;
+		left: 0;
+		.menu-item a:hover {
+			background-color: $color-transparent-home;
 		}
 	}
-	.current-menu-item {
-		background: none;
-		display: none;
-	}
-}
-
-@media screen and (max-width: 600px) {
-	.home {
-		.site-header-logo > h1 {
-			margin: 35% 0 0 0;
-			font-size: 2em;
+	@include wider-than(tablet-portrait) {
+		.main-navigation {
+			position: static;
+			background-color: transparent;
+			@include outer-container;
+			ul {
+				text-align: center;
+				margin: 0;
+				display: block;
+			}
+			.menu-item {
+				display: inline;
+				a {
+					@include button(flat, $color-button-home);
+					font-weight: normal;
+					text-transform: uppercase;
+					letter-spacing: 0.2em;
+					margin: 0 .5em 0 .5em;
+					padding: .2em 0 0 0;
+					@include header-font;
+				}
+			}
+			.current-menu-item {
+				background: none;
+				display: none;
+			}
 		}
 	}
 }
