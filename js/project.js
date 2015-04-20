@@ -9,9 +9,9 @@
   var reachSupplyAnchor = jQuery('.anchor');
 
   jQuery(window).scroll(function() {
-    if (jQuery(this).scrollTop() > 100) {
+    if (jQuery(this).scrollTop() > 150) {
       reachSupplyAnchor.addClass('anchor-moved');
-    } else if (jQuery(this).scrollTop() <= 100) {
+    } else if (jQuery(this).scrollTop() <= 150) {
       reachSupplyAnchor.removeClass('anchor-moved');
     }
   });
