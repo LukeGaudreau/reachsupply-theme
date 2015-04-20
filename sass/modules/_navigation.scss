@@ -69,9 +69,10 @@ a {
 		a {
 			line-height: $nav-height;
 			height: 4em;
+			padding-top: .1em;
 		}
 		&:hover > a {
-			background-color: $color-link;
+			background-color: $color-transparent-home;
 		}
 	}
 }
@@ -89,7 +90,7 @@ a {
 			&:hover {
 				background: url("images/logo-dk-blue.svg") no-repeat center center;
 				background-size: auto 3em; 
-				background-color: $color-link;
+				background-color: $color-transparent-home;
 			}
 		}
 	}
