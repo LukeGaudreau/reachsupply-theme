@@ -8,4 +8,20 @@
 	a {
 		color: $color-link-footer;
 	}
+	.container {
+		@include outer-container;
+		@include wider-than(tablet-portrait) {
+			aside {
+				@include span-columns(6);
+			}
+			.widget_search {
+					padding-right: 3em;
+			}
+		}
+		@include wider-than(tablet-landscape) {
+			aside {
+				@include span-columns(4);
+			}
+		}
+	}
 }
