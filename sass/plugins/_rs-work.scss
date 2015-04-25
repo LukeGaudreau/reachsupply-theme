@@ -1,0 +1,17 @@
+/*
+** Style for work custom post type
+*/
+
+/* Archive */
+.rs_work {
+    .entry-thumbnail {
+        @include span-columns(6);
+    }
+    .entry-content {
+        @include span-columns(6);
+        @include omega();
+    }
+    .entry-footer {
+        @include span-columns(12);
+    }
+}

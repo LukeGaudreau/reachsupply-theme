@@ -1662,6 +1662,58 @@ Infinite scroll
 	display: block;
 }
 
+/*
+** Style for work custom post type
+*/
+
+/* Archive */
+
+/* line 7, sass/plugins/_rs-work.scss */
+
+.rs_work .entry-thumbnail {
+	float: left;
+	display: block;
+	margin-right: 0.74294%;
+	width: 49.62853%;
+}
+
+/* line 89, /home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
+
+.rs_work .entry-thumbnail:last-child {
+	margin-right: 0;
+}
+
+/* line 10, sass/plugins/_rs-work.scss */
+
+.rs_work .entry-content {
+	float: left;
+	display: block;
+	margin-right: 0.74294%;
+	width: 49.62853%;
+	margin-right: 0;
+}
+
+/* line 89, /home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
+
+.rs_work .entry-content:last-child {
+	margin-right: 0;
+}
+
+/* line 14, sass/plugins/_rs-work.scss */
+
+.rs_work .entry-footer {
+	float: left;
+	display: block;
+	margin-right: 0.74294%;
+	width: 100%;
+}
+
+/* line 89, /home/luke/Sites/www/reachsupply/htdocs/wp-content/themes/reachsupply/bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
+
+.rs_work .entry-footer:last-child {
+	margin-right: 0;
+}
+
 /* line 6, sass/structure/_layout.scss */
 
 .container {
